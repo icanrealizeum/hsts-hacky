@@ -14,3 +14,8 @@ var max_age = "15570000";
 ## Credits
 
 - [chloe](https://keybase.io/dotchloe)
+
+## License
+
+The project had no license, and since I'm not the original author, I am only able to release the modifications that I did to it under UNLICENSE. The rest is, who knows?!...
+
