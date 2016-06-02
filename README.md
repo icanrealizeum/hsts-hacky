@@ -17,5 +17,5 @@ var max_age = "15570000";
 
 ## License
 
-The project had no license, and since I'm not the original author, I am only able to release the modifications that I did to it under UNLICENSE. The rest is, who knows?!...
+The project had no license, and since I(@ActualizeInMaterial) am not the original author, I am only able to release the modifications that I did to it under UNLICENSE(and/or CC0, your pick!). The rest is, who knows?!...
 
