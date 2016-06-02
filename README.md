@@ -19,3 +19,6 @@ var max_age = "15570000";
 
 The project had no license, and since I(@ActualizeInMaterial) am not the original author, I am only able to release the modifications that I did to it under UNLICENSE(and/or CC0, your pick!). The rest is, who knows?!...
 
+Check out the original location(from where it was forked): https://github.com/redpois0n/hsts-everywhere-chrome
+
+
