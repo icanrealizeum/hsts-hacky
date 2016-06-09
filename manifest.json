@@ -11,6 +11,11 @@
 	"manifest_version": 2,
   "homepage_url": "https://github.com/respeccing/hsts-everywhere-chrome",
   "options_page": "options.html",
+
+  "chrome_url_overrides": {
+        "newtab": "newtab.html"
+  },
+
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
