@@ -1,4 +1,4 @@
-# hsts-everywhere-chrome
+# hsts-hacky
 
 Forces Chrome/Chromium to use HTTP Strict Transport Security on all HTTPS connections, for all subdomains of the specific hostname you're trying to connect to.
 Also forces https on all urls, blocks http(but can allow it if you set a var).
