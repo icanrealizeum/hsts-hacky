@@ -1,8 +1,8 @@
 {
 	"name": "HSTS Everywhere",
-	"version": "0.4.0.1",
+	"version": "0.4.0.2",
 	"description": "Forces all sites to use HSTS, forces https(but can allow http if set)",
-	"background": { 
+	"background": {
 		"scripts": ["background.js"]
 	},
 	"icons": {
@@ -21,5 +21,16 @@
 		"webRequestBlocking",
 		"https://*/*",
 		"http://*/*"
-	]
+	],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["on_every_page.js"]
+    },
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["on_github_pages.js"]
+    }
+  ]
 }
