@@ -6,4 +6,7 @@
     <br />
     <a href="chrome://extensions/" target="_blank">extensions page</a> (this won't work, but if you open Console here you can click on the link in the error to get there)
   </body>
+  <p>
+  Note: if using uMatrix, do not have this option set: `Strict HTTPS: forbid mixed content.` or else it will just block loading eg. those http images, whereas without this option hsts-hacky would attempt loading the https version of them.
+  </p>
 </html>

@@ -11,6 +11,10 @@ Default max-age is 6 months. Change this in [background.js](background.js) in se
 var max_age = "15570000";
 ```
 
+# uMatrix
+
+When using uMatrix, do not set this option: Strict HTTPS: forbid mixed content.
+
 ## Credits
 
 - [chloe](https://keybase.io/dotchloe)
